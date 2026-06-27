@@ -99,7 +99,6 @@ Guide: *Maybe soon, if I'm motivated, but I don't see the need.*
   - Minimum 4GB RAM
   - Minimum 2GB storage space
   - F-Droid app store installed
-  - Python installed
 
 - **Apps from F-Droid Appstore:**
   - [Termux (f-droid)](https://f-droid.org/en/packages/com.termux/)
