@@ -78,6 +78,10 @@ Guide: *Maybe soon, if I'm motivated, but I don't see the need.*
     ```bash
       git clone https://github.com/LukasSR04/SearXNG-Termux-Android-noRoot.git && cd SearXNG-Termux-Android-noRoot && bash scripts/install-searxng.sh
     ```
+    - To install in a Custom Path
+    ```bash
+      git clone https://github.com/LukasSR04/SearXNG-Termux-Android-noRoot.git && cd SearXNG-Termux-Android-noRoot && SEARXNG_BASE=/your/path bash scripts/install-searxng.sh
+    ``` 
     > Start & Stop Script will be saved in
     ```bash 
     "$HOME/.shortcuts" 

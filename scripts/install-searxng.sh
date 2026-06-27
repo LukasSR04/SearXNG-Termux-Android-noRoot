@@ -261,7 +261,7 @@ echo -e "    ${YELLOW}export SEARXNG_SETTINGS_PATH=${SEARXNG_CONF}/settings.yml$
 echo -e "    ${YELLOW}python ${SEARXNG_SRC}/searx/webapp.py${RESET}"
 echo -e ""
 echo -e "  Custom install path next time:"
-echo -e "    ${YELLOW}SEARXNG_BASE=/your/path bash install-searxng.sh${RESET}"
+echo -e "    ${YELLOW}cd SearXNG-Termux-Android-noRoot && SEARXNG_BASE=/your/path bash scripts/install-searxng.sh${RESET}"
 echo -e ""
 echo -e "  Termux:Widget: Refresh the widget to see the scripts."
 echo -e "${GREEN}Enjoy your private search engine on Android :) ! ${RESET}\n"

@@ -69,6 +69,10 @@ It includes:
 ```bash
   git clone https://github.com/LukasSR04/SearXNG-Termux-Android-noRoot.git && cd SearXNG-Termux-Android-noRoot && bash scripts/install-searxng.sh
 ```
+>To install in a Custom Path
+```bash
+  git clone https://github.com/LukasSR04/SearXNG-Termux-Android-noRoot.git && cd SearXNG-Termux-Android-noRoot && SEARXNG_BASE=/your/custom/path bash scripts/install-searxng.sh
+``` 
 
 
 ## 0.2 Option B (installation by yourself)
