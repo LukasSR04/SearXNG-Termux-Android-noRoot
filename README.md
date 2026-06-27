@@ -114,21 +114,24 @@ Guide: *Maybe soon, if I'm motivated, but I don't see the need.*
 
 ### 🧰 Tested On
 
-| Component| Details|
-|---|---|
-| Device| Samsung Galaxy A34 5G (SM-A346B)|
-| Manufacturer| Samsung|
-| Android Version| 16|
-| Kernel| 6.6.82-android15-8-abA346BXXSDEYL2-4k|
-| Architecture| aarch64 (arm64-v8a)|
-| RAM| 6 GB real RAM + 6 GB RAM Plus (Swap)|
-| Termux Version| 0.118.3 (F-Droid)|
-| Termux Tools Version| 1.45.0|
-| Python Version| 3.12.12|
-| pip Version| 26.0.1|
-| OpenSSL Version| 3.6.1 (27 Jan 2026)|
-| SearXNG Commit| b5bb27f231e5f24b3985cd7cbd3f371486c21a11|
-| Termux Plugins| Termux:Widget (versionCode 1001)|
+| Device| Samsung Galaxy A34 5G (SM-A346B) | termux/termux-docker:latest | termux/termux-docker:aarch64 | 
+|---|---|---|---| 
+| Created | - | 2026-06-21 03:03:58 UTC | 2026-06-21 03:04:07 UTC |
+| Tested | 15-02-2026 | 27-06-2026 | 27-06-2026 |
+| Android Version| 16| - | - | 
+| Kernel| 6.6.82-android15-8-abA346BXXSDEYL2-4k| 7.0.9-ogc3.2.fc44.x86_64 | 7.0.9-ogc3.2.fc44.x86_64 |
+| Architecture| aarch64 (arm64-v8a)| amd64 | arm64 | 
+| RAM| 6 GB real RAM + 6 GB RAM Plus (Swap)| 32 GB | 32 GB | 
+| Termux Version| 0.118.3 (F-Droid)| | | 
+| Termux Tools Version| 1.45.0| 1.45.0 | 1.45.0 |
+| Python Version| 3.12.12 | 3.14.5 | 3.14.5 |
+| pip Version| 26.0.1| 26.1.2 | 26.1.2 |
+| OpenSSL Version| 3.6.1 (27 Jan 2026)| | |
+| SearXNG Commit| b5bb27f231e5f24b3985cd7cbd3f371486c21a11| b5bb27f231e5f24b3985cd7cbd3f371486c21a11 | b5bb27f231e5f24b3985cd7cbd3f371486c21a11 |
+| Termux Plugins| Termux:Widget (versionCode 1001)| | |
+| Runtime Note | | Native on x86_64 host | arm64 image on x86_64 host via emulation |
+| RepoDigest |  | docker.io/termux/termux-docker@sha256:370ab0833949aef43a36ac80e23758c33566b683dc3b3b49666fe98a94d50c7d | docker.io/termux/termux-docker@sha256:a1e6d86991171bf355b00a20db641f1029828c5e79855980ac7c429eb02e2c56 |
+| Result | Success ✔️ | Success ✔️ | Success ✔️ | 
 
 
 ---
